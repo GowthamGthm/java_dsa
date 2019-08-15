@@ -1,0 +1,97 @@
+Problems:
+
+1)
+Various signal towers are present in a city.
+Towers are aligned in a straight horizontal line(from left to right) and
+ each tower transmits a signal in the right to left direction.
+ Tower A shall block the signal of Tower B if Tower A is present to the left of
+ Tower B and Tower A is taller than Tower B. So,the range of a signal of a given
+ tower can be defined as :
+
+{(the number of contiguous towers just to the left of the given tower whose height
+ is less than or equal to the height of the given tower) + 1}.
+
+You need to find the range of each tower.
+Example:
+Input: 100 80 60 70 60 75 85
+Output: 1 1 1 2 1 4 6
+
+2)
+Given a string containing just the characters '(', ')', '{', '}', '[' and ']',
+determine if the input string is valid.
+
+An input string is valid if:
+
+Open brackets must be closed by the same type of brackets.
+Open brackets must be closed in the correct order.
+Note that an empty string is also considered valid.
+
+Example 1:
+
+Input: "()"
+Output: true
+Example 2:
+
+Input: "()[]{}"
+Output: true
+Example 3:
+
+Input: "(]"
+Output: false
+Example 4:
+
+Input: "([)]"
+Output: false
+Example 5:
+
+Input: "{[]}"
+Output: true
+
+{
+   "]" : "["
+   "{" : "{"
+   ""
+}
+
+3) https://leetcode.com/problems/trapping-rain-water/
+
+4) https://leetcode.com/problems/largest-rectangle-in-histogram/
+
+5) Find out next Greater Element
+Given an array, print the Next Greater Element (NGE) for every element.
+ The Next greater Element for an element x is the first greater element on the right side of x in array.
+ Elements for which no greater element exist, consider next greater element as -1.
+
+Examples:
+
+For any array, rightmost element always has next greater element as -1.
+For an array which is sorted in decreasing order, all elements have next greater element as -1.
+For the input array [4, 5, 2, 25}, the next greater elements for each element are as follows.
+Element       NGE
+   4      -->   5
+   5      -->   25
+   2      -->   25
+   25     -->   -1
+
+6) https://www.hackerrank.com/challenges/poisonous-plants/problem
+
+7) Convert infix to postfix expression.
+
+8) Evaluate postfix expression.
+
+9) 
+https://leetcode.com/problems/maximal-rectangle/description/
+Given a 2D binary matrix filled with 0's and 1's, find the largest rectangle containing only 1's and return its area.
+For example, given the following matrix:
+1 0 1 0 0
+1 0 1 1 1
+1 1 1 1 1
+1 0 0 1 0
+Return 6.
+
+10) Recursively remove all adjacent duplicates
+Eg: 
+Input: azxxzy
+Output: ay
+
+

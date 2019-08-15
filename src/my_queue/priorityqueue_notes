@@ -1,0 +1,18 @@
+Priority Queue:
+Heap(Max Heap/Min Heap)
+
+Applicatins:
+    CPU Scheduling
+    Load Balancing, Interupt Handling
+	Data Compression
+	Shortest Path Algorithm - DIJKSTRA'S ALGORITHM
+	Minimum Spanning Tree algorithms - Prim's algorithm
+	HeapSort
+	Artificial Intelligence : A* Search Algorithm :
+	The A* search algorithm finds the shortest path between two vertices
+	of a weighted graph, trying out the most promising routes first.
+	The priority queue (also known as the fringe) is used to keep track
+	of unexplored routes,
+	the one for which a lower bound on the total path length
+	is smallest is given highest priority.
+

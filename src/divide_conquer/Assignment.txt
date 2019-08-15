@@ -1,0 +1,47 @@
+1)
+Median of two sorted arrays of same size
+There are 2 sorted arrays A and B of size n each.
+Write an algorithm to find the median of the array obtained after merging the above 2 arrays
+(i.e. array of length 2n). The complexity should be O(log(n)).
+Example:
+ int ar1[] = {1, 12, 15, 26, 38};
+ int ar2[] = {2, 13, 17, 30, 45};
+
+ Output: median is 16
+
+2)Find a peak element
+  Given an array of integers. Find a peak element in it.
+  An array element is peak if it is NOT smaller than its neighbors.
+  For corner elements, we need to consider only one neighbor.
+   For example, for input array {5, 10, 20, 15}, 20 is the only peak element.
+   For input array {10, 20, 15, 2, 23, 90, 67}, there are two peak elements: 20 and 90.
+   Note that we need to return any one peak element.
+
+  Following corner cases give better idea about the problem.
+  1) If input array is sorted in strictly increasing order, the last element is always a peak element. For example, 50 is peak element in {10, 20, 30, 40, 50}.
+  2) If input array is sorted in strictly decreasing order, the first element is always a peak element. 100 is the peak element in {100, 80, 60, 50, 20}.
+  3) If all elements of input array are same, every element is a peak element.
+
+3)Find a peak element in a 2D array
+  An element is a peak element if it is greater than or equal to its four neighbors,
+  left, right, top and bottom.
+  For example neighbors for A[i][j] are A[i-1][j], A[i+1][j], A[i][j-1] and A[i][j+1].
+   For corner elements, missing neighbors are considered of negative infinite value.
+   Input : 10 20 15
+           21 30 14
+           7  16 32
+   Output : 30
+   30 is a peak element because all its
+   neighbors are smaller or equal to it.
+   32 can also be picked as a peak.
+
+   Input : 10 7
+           11 17
+   Output : 17
+
+4) Skyline problem:
+https://leetcode.com/problems/the-skyline-problem/
+
+5) https://leetcode.com/problems/kth-largest-element-in-an-array/
+
+6) https://leetcode.com/problems/merge-k-sorted-lists/

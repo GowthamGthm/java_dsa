@@ -1,0 +1,13 @@
+Java Priority queue:
+
+import java.util.PriorityQueue;
+add()
+poll()
+
+Comparator:
+ Comparator<Integer> cmp;
+    cmp = new Comparator<Integer>() {
+      public int compare(Integer e1, Integer e2) {
+        return e2 - e1;
+      }
+ };

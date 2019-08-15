@@ -1,0 +1,22 @@
+        In a divide and conquer strategy :
+
+        1.Problem is divided into parts;
+
+        2.Each of these parts is attacked/solved independently,
+        by applying the algorithm at hand
+        (mostly recursion is used for this purpose) ;
+
+        3.And then the solutions of each partition/division and
+        combined/merged together to arrive at the final solution to
+        the problem as a whole (this comes under conquer)
+
+        Example, Quick sort, merge sort.
+
+
+        1) Divide the original problem instance into a set of
+        smaller sub-instances of itself;
+
+        2) Independently solve each sub-instance;
+
+        3) Combine smaller/independent sub-instance solutions to
+        build a single solution for the larger/original instance]
