@@ -1,0 +1,5 @@
+1) https://leetcode.com/problems/reverse-nodes-in-k-group/
+2) https://leetcode.com/problems/copy-list-with-random-pointer/
+3) https://leetcode.com/problems/linked-list-cycle/
+4) https://leetcode.com/problems/linked-list-cycle-ii/
+

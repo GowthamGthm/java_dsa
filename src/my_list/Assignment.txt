@@ -1,0 +1,8 @@
+*) https://leetcode.com/problems/rotate-list/
+*) https://leetcode.com/problems/split-linked-list-in-parts/
+*) https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
+*) https://leetcode.com/problems/split-linked-list-in-parts/
+*) https://leetcode.com/problems/odd-even-linked-list/
+*) https://leetcode.com/problems/add-two-numbers/
+*) Implement Doubly linked list
+*) Implement circular doubly linked list
